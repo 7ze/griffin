@@ -9,5 +9,8 @@ as a fun learning experience.
 Put any text files in a directory called 'books/' and run
 ```sh
 python main.py
+
+# or if you have GNU Make
+make run
 ```
 
