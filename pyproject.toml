@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "Griffin"
+version = "0.1.0"
+description = "Griffin, the book bot is a simple command-line program that reads text from a file and generates a report about the text."
+authors = ["The_philosopher <email.shinudonney@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
